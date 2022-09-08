@@ -2,7 +2,7 @@ import styled from "styled-components";
 export const HeaderStyle = styled.header`
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 48%);
   width: 100%;
-  height: 399.03px;
+  height: 500px;
   background: #707070 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
   opacity: 1;
@@ -12,8 +12,7 @@ export const HeaderStyle = styled.header`
   color: white;
     
   .HeaderFontes {
-    width: 100%;
-  height: fit-content;
+  margin-top: 69px;
   color: #FFFFFF;
   opacity: 1;
   h2{
@@ -28,15 +27,16 @@ export const HeaderStyle = styled.header`
   }
   h3{
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 24px;
     font-weight: 400;
   }
 
 }
   .bnt{
-  top: 230px;
-  left: 971px;
+    color: #888888;
   width: 160px;
+  margin-left: 40px;
+  margin-top: 50px;
   height: 40px;
   background: #FFFFFF 0% 0% no-repeat padding-box;
   box-shadow: 0px 1px 6px #00000029;

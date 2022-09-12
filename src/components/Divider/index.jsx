@@ -1,4 +1,4 @@
-import { DividerStyle } from './style';
+import { DividerStyle } from "./style";
 
 export function Divider({ children }) {
   return (

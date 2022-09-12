@@ -10,40 +10,37 @@ export const HeaderStyle = styled.header`
   justify-content: center;
   flex-direction: column;
   color: white;
-    
+
   .HeaderFontes {
-  margin-top: 69px;
-  color: #FFFFFF;
-  opacity: 1;
-  h2{
-    font-size: 20px;
-    line-height: 16px;
-    font-weight: 400;
+    margin-top: 69px;
+    color: #ffffff;
+    opacity: 1;
+    h2 {
+      font-size: 20px;
+      line-height: 16px;
+      font-weight: 400;
+    }
+    h1 {
+      font-size: 40px;
+      line-height: 45px;
+      font-weight: 500;
+    }
+    h3 {
+      font-size: 14px;
+      margin-top: 24px;
+      font-weight: 400;
+    }
   }
-  h1{
-    font-size: 40px;
-    line-height: 45px;
-    font-weight: 500;
-  }
-  h3{
-    font-size: 14px;
-    margin-top: 24px;
-    font-weight: 400;
-  }
-
-}
-  .bnt{
+  .bnt {
     color: #888888;
-  width: 160px;
-  margin-left: 40px;
-  margin-top: 50px;
-  height: 40px;
-  background: #FFFFFF 0% 0% no-repeat padding-box;
-  box-shadow: 0px 1px 6px #00000029;
-  border: 1px solid #707070;
-  border-radius: 4px;
-  opacity: 1;
+    width: 160px;
+    margin-left: 40px;
+    margin-top: 50px;
+    height: 40px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    box-shadow: 0px 1px 6px #00000029;
+    border: 1px solid #707070;
+    border-radius: 4px;
+    opacity: 1;
   }
-
-
-`
+`;

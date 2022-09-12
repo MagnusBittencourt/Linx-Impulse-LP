@@ -45,18 +45,16 @@ export function Description() {
           </div>
 
           <div className="inputRadio">
-            
-            <div className="a">
+            <div className="containerInput">
               <label>Masculino</label>
               <input type="radio" name="" />
             </div>
-           
-           
-            <div className="a">
+
+            <div className="containerInput">
               <label>Feminino</label>
               <input type="radio" name="" />
             </div>
-           </div>
+          </div>
           <button className="envio">Enviar</button>
         </form>
       </section>

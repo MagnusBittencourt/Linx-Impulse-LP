@@ -1,10 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Homem from './pages/Home/index'
+import Home from './pages/home/index'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Homem />
+    <Home />
   </React.StrictMode>
 )

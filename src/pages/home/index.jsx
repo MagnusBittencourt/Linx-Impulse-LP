@@ -4,7 +4,7 @@ import { Divider } from "../../components/Divider";
 import { Compartilhe } from "../../components/Compartilhe";
 import { Footer } from "../../components/Footer";
 import { Products } from "../../components/Products";
-function Homem() {
+function Home() {
   return (
     <div>
       <Header />
@@ -17,4 +17,4 @@ function Homem() {
     </div>
   );
 }
-export default Homem;
+export default Home;

@@ -5,7 +5,7 @@ import { Compartilhe } from "../../components/Compartilhe"
 import { Footer } from "../../components/Footer"
 import { Products } from "../../components/Products/index"
 
-export function Home (){
+function Home (){
   return (<div>
    <Header/>
     <Description/>
@@ -18,3 +18,4 @@ export function Home (){
    </div>
   )
 }
+export default Home

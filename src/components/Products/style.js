@@ -22,4 +22,5 @@ export const ProductsStyle = styled.main`
     border-radius: 4px;
     opacity: 1;
   }
+
 `;

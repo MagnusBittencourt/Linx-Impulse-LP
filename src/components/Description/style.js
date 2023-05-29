@@ -1,5 +1,10 @@
 import styled from "styled-components";
-
+function desmarcarPrimeiro() {
+  var segundoInput = document.querySelector('input[name="opcao"][value="opcao2"]');
+  segundoInput.checked = true;
+  var primeiroInput = document.querySelector('input[name="opcao"][value="opcao1"]');
+  primeiroInput.checked = false;
+}
 export const DescriptionStyle = styled.section`
   width: 100%;
   height: 390px;
@@ -69,4 +74,11 @@ export const DescriptionStyle = styled.section`
     width: 340px;
     height: 39px;
   }
+
+
+ 
+button {
+     cursor: pointer;
+}
+
 `;

@@ -7,26 +7,13 @@ export function Description() {
         <div className="boxDescription">
           <h2>Ajude o algoritimo a ser mais certeiro</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque ultricies tellus nec mi porta convallis sollicitudin eu
-            urna. Mauris rhoncus erat sed interdum dignissim. Suspendisse semper
-            pretium consectetur. Praesent bibendum arcu risus, sit amet iaculis
-            ex tempus quis. Cras et erat ut tellus vulputate tincidunt. Aenean
-            lacinia euismod augue vel egestas. Class aptent taciti sociosqu ad
-            litora torquent per conubia nostra, per inceptos himenaeos.
-            Vestibulum vel urna tortor. Vivamus et arcu non felis tristique
-            eleifend.
+           Você está em busca do produto perfeito para atender às suas necessidades e desfrutar de uma experiência incrível? Então, não deixe de preencher os nossos campos e ajude o nosso algoritmo a ser mais certeiro!
+
+Queremos garantir que você encontre o produto ideal que se encaixe perfeitamente ao seu estilo de vida e preferências. Ao preencher os nossos campos, você nos fornece informações valiosas sobre as suas necessidades específicas, permitindo que o nosso algoritmo personalize as recomendações de produtos de acordo com os seus interesses.
+
+Imagine só, receber sugestões personalizadas dos melhores produtos disponíveis no mercado, com base nas suas preferências de tamanho, desempenho, recursos e muito mais! Ao preenchendo, você nos ajuda a entender exatamente o que você procura em um produto, possibilitando que nossa equipe selecione as opções mais adequadas para você.
           </p>
-          <p>
-            {" "}
-            Morbi eu condimentum urna. Curabitur eu magna eget turpis
-            condimentum ultrices. Suspendisse quis lorem ultricies, pulvinar
-            purus sed, egestas erat. Etiam ultricies a ante vehicula pharetra.
-            Quisque ut neque mattis, consequat velit ut, ultrices orci. Nulla
-            varius elementum erat vel pharetra. Aenean sit amet nisi diam. Morbi
-            viverra, magna ac luctus commodo, odio ante suscipit libero, at
-            mattis augue est vel metus.
-          </p>
+  
         </div>
         <form>
           <div className="inputContainer">
@@ -47,17 +34,21 @@ export function Description() {
           <div className="inputRadio">
             <div className="containerInput">
               <label>Masculino</label>
-              <input type="radio" name="" />
+              <input type="radio" name="opcao" value= "1" onclick="desmarcarPrimeiro()" />
             </div>
 
             <div className="containerInput">
               <label>Feminino</label>
-              <input type="radio" name="" />
+              <input type="radio" name="opcao" value= "2" />
             </div>
           </div>
           <button className="envio">Enviar</button>
         </form>
       </section>
     </DescriptionStyle>
-  );
+ 
+ 
+ 
+ );
+ 
 }

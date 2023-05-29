@@ -53,4 +53,15 @@ export const CompartilheStyle = styled.div`
     border-radius: 4px;
     opacity: 1;
   }
+  button:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+
+  } 
+ 
+.bnt {
+     cursor: pointer;
+}
+
+
 `;

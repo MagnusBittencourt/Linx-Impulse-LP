@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const CardsStyle = styled.div`
-  .teste {
+  .card {
     width: fit-content;
     display: flex;
     justify-content: center;
@@ -60,18 +60,12 @@ export const CardsStyle = styled.div`
     border-radius: 4px;
     opacity: 1;
   }
-  /* .bnt mais produtos{
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  button {
+     cursor: pointer;
 }
-.mais-produtos{
-width: 260px;
-height: 39px;
-background: #FFFFFF 0% 0% no-repeat padding-box;
-border: 1px solid #707070;
-border-radius: 4px;
-opacity: 1;
-} */
+  .card:hover {
+    transform: scale(105%);
+    transition: all 0.2s;
+
+  } 
 `;

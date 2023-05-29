@@ -3,7 +3,7 @@ import { CardsStyle } from "./style";
 export function Cards({ image, name, oldPrice, price, description, newPrice }) {
   return (
     <CardsStyle>
-      <div className="teste">
+      <div className="card">
         <div className="FotoCards">
           <img className="img" src={image} alt={name} />
         </div>

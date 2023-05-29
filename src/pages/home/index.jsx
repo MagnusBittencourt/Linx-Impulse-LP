@@ -10,6 +10,7 @@ function Home() {
       <Header />
       <Description />
       <Divider>Sua seleção especial</Divider>
+      <br />
       <Products />
       <Divider>Compartilhe a novidade</Divider>
       <Compartilhe />

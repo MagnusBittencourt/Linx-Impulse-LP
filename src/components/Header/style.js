@@ -42,5 +42,16 @@ export const HeaderStyle = styled.header`
     border: 1px solid #707070;
     border-radius: 4px;
     opacity: 1;
+    position:relative
+    
   }
+  button:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+
+  } 
+ 
+.bnt {
+     cursor: pointer;
+}
 `;
